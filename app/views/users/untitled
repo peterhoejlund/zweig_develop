@@ -1,0 +1,38 @@
+<!-- Columns are nested inside a row. They scale up to 12 for each row. To set up a column you have to define a div element and assign it two classes. First, you add the class that is responsible for specifying the column widths. To achieve this, you can use any class from one to twelve or the one-third, two-thirds, and one-half classes.
+
+The second class is responsible for setting the column margins. Possible classes are columns and column. If you define the column widths with the first option (e.g. using the two class), you should use the columns class (instead of column) as a second class. The exception is when using the one class, which can be equally combined with the columns or column class. Fx: -->
+
+<header>
+  <div class="container">
+    ...
+    <section class="services">
+        ...
+      <div class="row">
+        <div class="one-half column">
+          ...
+        </div>
+        <div class="one-half column">
+          ...
+        </div>
+      </div>
+    </section>
+  </div>
+</header>
+
+<!-- Note: Instead of using the one-half, column class pair as class names, we could have used the six, columns pair, which would produce the same result. -->
+
+<!-- OFFSET -->
+
+<section class="contact">
+  <div class="container">
+    ...
+    <div class="row">
+      <div class="offset-by-two eight columns">
+        <ul>
+            <!-- list here... -->
+        </ul>
+      </div>                  
+    </div>
+    ...
+  </div>
+</section>
