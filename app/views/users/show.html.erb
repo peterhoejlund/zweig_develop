@@ -3,11 +3,12 @@
 <p class="text-center help-text">Oprettet for <%= time_ago_in_words @user.created_at %> siden.</p>
 <hr>
 <div class="row">
-<div class="large-offset-1 large-8 columns">
-	
+	<a href="<%= works_path %>"><div class="large-2 medium-2 small-10 text-center small-offset-end medium-offset-1 large-offset-1 columns">Dine værker</div></a>
+	<a href="<%= new_work_path %>"><div class="large-2 medium-2 small-10 text-center columns">Nyt værk</div></a>
+	<a href=""><div class="large-2 medium-2 small-10 text-center columns">Synes godt</div></a>
+	<a href=""><div class="large-2 medium-2 small-10 text-center columns">Beskeder</div></a>
+	<a href=""><div class="large-2 medium-2 small-10 text-center float-left columns">Rediger profil</div></a>
 </div>
-<div class="large-2 columns">
-	<button class="button">Rediger profil</button>
-	<button class="button">Opret værk</button>
-</div>
-</div>
+
+<%= render 'works/new' %>
+
