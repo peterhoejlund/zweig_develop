@@ -25,3 +25,8 @@
 .user-new-site {
 	padding-top: 5%;
 }
+
+/* the blue chrome outline gone */
+button:focus {
+	outline:0;
+}
