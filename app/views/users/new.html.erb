@@ -1,32 +1,36 @@
-
-  <h4 class="center-text">Opret bruger</h4>
-  </div>
+  <div class="row user-new-site">
+    <div class="small-10 medium-6 large-4 large-offset-4 medium-offset-3 small-offset-1 columns">
+      <h3 class="text-center">Velkommen til</h3>
+  <h6 class="text-center">Her kan du oprette dig som bruger på Zweig</h6>
+<hr>
+    <div class="">
   <%= form_for :user, url: '/users', html: { class: 'form-horizontal' } do %>
-  <div class="modal-body">
-    <div class="form-group">
-      <input type="hidden" value=""/>
-      <label for="inputUsername" class="col-sm-2 control-label">Navn.</label>
-      <div class="col-sm-4">
-        <input type="text" name="user[username]" class="form-control" id="inputUsername" placeholder="Dit fulde navn" required>
+      <label for="inputUsername" class="" control-label">Dit Navn</label>
+      <div class="">
+        <input type="text" name="user[username]" class="" id="inputUsername" placeholder="Dit fulde navn" required>
       </div>
     </div>
-    <div class="form-group">
-      <label for="inputEmail" class="col-sm-2 control-label">E-mail</label>
-      <div class="col-sm-4">
-        <input type="email" name="user[email]" class="form-control" id="inputEmail" placeholder="Din e-mail?" required></input>
+    <div class="">
+      <label for="inputEmail" class="">Din e-mail</label>
+      <div class="">
+        <input type="email" name="user[email]" class="" id="inputEmail" placeholder="Din e-mail" required></input>
+        
       </div>
     </div>
-    <div class="form-group">
-      <label for="inputPassword" class="col-sm-2 control-label">Kodeordet</label>
-      <div class="col-sm-4">
-        <input type="password" name="user[password]" class="form-control" id="inputPassword" placeholder="Dit kodeord?" required></input>
+    <div class="">
+      <label for="inputPassword" class="">Dit kodeordet</label>
+      <div class="">
+        <input type="password" name="user[password]" class="" id="inputPassword" placeholder="Dit kodeord" required></input>
+        <p class="help-text">Dit kodeord skal indholde store bogstaver og tal</p>
       </div>
-    </div>
-  </div>
-
-
-    <button type="submit" class=" btn btn-primary">Opret</button>
+      <hr>
+    <button type="submit" class="button">Opret</button>
 
     <% end %>
+    </div>
+  </div><!-- columns -->
+</div> <!-- row -->
+
+
 
 

@@ -2037,3 +2037,708 @@ Processing by HomeController#index as HTML
 Completed 200 OK in 164ms (Views: 160.2ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for ::1 at 2016-09-23 19:38:44 +0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (2.7ms)
+  Rendered home/_navbar.html.erb (1.0ms)
+Completed 200 OK in 902ms (Views: 885.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-23 19:56:31 +0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (2.7ms)
+  Rendered home/_navbar.html.erb (1.0ms)
+Completed 200 OK in 875ms (Views: 856.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-23 19:57:41 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.7ms)
+  Rendered home/_navbar.html.erb (0.7ms)
+Completed 200 OK in 140ms (Views: 137.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-23 20:03:33 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+  Rendered home/_navbar.html.erb (0.8ms)
+Completed 200 OK in 178ms (Views: 175.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-23 20:03:35 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+  Rendered home/_navbar.html.erb (0.8ms)
+Completed 200 OK in 168ms (Views: 163.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-23 20:03:36 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+  Rendered home/_navbar.html.erb (0.6ms)
+Completed 200 OK in 143ms (Views: 139.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-23 20:05:52 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+  Rendered home/_navbar.html.erb (0.7ms)
+Completed 200 OK in 138ms (Views: 134.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-23 20:07:23 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+  Rendered home/_navbar.html.erb (0.8ms)
+Completed 200 OK in 172ms (Views: 167.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-23 20:08:13 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+  Rendered home/_navbar.html.erb (0.8ms)
+Completed 200 OK in 137ms (Views: 133.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-23 20:08:30 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+  Rendered home/_navbar.html.erb (1.0ms)
+Completed 200 OK in 128ms (Views: 124.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-23 20:08:50 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+  Rendered home/_navbar.html.erb (0.7ms)
+Completed 200 OK in 164ms (Views: 160.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-23 20:09:02 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+  Rendered home/_navbar.html.erb (0.6ms)
+Completed 200 OK in 148ms (Views: 144.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-23 20:11:00 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+  Rendered home/_navbar.html.erb (0.4ms)
+Completed 200 OK in 124ms (Views: 120.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-23 20:13:20 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+  Rendered home/_navbar.html.erb (1.8ms)
+Completed 200 OK in 2849ms (Views: 2845.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-23 20:13:33 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+  Rendered home/_navbar.html.erb (0.5ms)
+Completed 200 OK in 2906ms (Views: 2902.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-23 20:14:11 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+  Rendered home/_navbar.html.erb (0.6ms)
+Completed 200 OK in 2900ms (Views: 2896.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-23 20:15:32 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+  Rendered home/_navbar.html.erb (0.6ms)
+Completed 200 OK in 176ms (Views: 171.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-23 20:15:46 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+  Rendered home/_navbar.html.erb (0.5ms)
+Completed 200 OK in 152ms (Views: 148.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-23 20:16:07 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+  Rendered home/_navbar.html.erb (0.4ms)
+Completed 200 OK in 131ms (Views: 127.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-23 20:19:03 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+  Rendered home/_navbar.html.erb (0.4ms)
+Completed 200 OK in 171ms (Views: 166.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-23 20:20:22 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+  Rendered home/_navbar.html.erb (0.5ms)
+Completed 200 OK in 150ms (Views: 146.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-23 20:21:05 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+  Rendered home/_navbar.html.erb (0.4ms)
+Completed 200 OK in 126ms (Views: 122.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-23 20:21:19 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+  Rendered home/_navbar.html.erb (0.5ms)
+Completed 200 OK in 153ms (Views: 149.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-23 20:22:04 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+  Rendered home/_navbar.html.erb (0.6ms)
+Completed 200 OK in 171ms (Views: 167.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-23 20:23:16 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+  Rendered home/_navbar.html.erb (0.6ms)
+Completed 200 OK in 2747ms (Views: 2744.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-23 20:23:26 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+  Rendered home/_navbar.html.erb (0.6ms)
+Completed 200 OK in 2750ms (Views: 2745.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-23 20:23:34 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+  Rendered home/_navbar.html.erb (0.5ms)
+Completed 200 OK in 2731ms (Views: 2728.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-23 20:23:51 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+  Rendered home/_navbar.html.erb (0.6ms)
+Completed 200 OK in 2886ms (Views: 2883.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-23 20:24:09 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+  Rendered home/_navbar.html.erb (0.5ms)
+Completed 200 OK in 2791ms (Views: 2787.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-23 20:25:35 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+  Rendered home/_navbar.html.erb (0.4ms)
+Completed 200 OK in 2791ms (Views: 2787.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-23 20:26:59 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.3ms)
+  Rendered home/_navbar.html.erb (0.6ms)
+Completed 200 OK in 3199ms (Views: 3192.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-23 20:27:17 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+  Rendered home/_navbar.html.erb (0.6ms)
+Completed 200 OK in 2947ms (Views: 2943.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-23 20:27:55 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+  Rendered home/_navbar.html.erb (0.5ms)
+Completed 200 OK in 141ms (Views: 137.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-23 20:27:57 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+  Rendered home/_navbar.html.erb (0.5ms)
+Completed 200 OK in 166ms (Views: 161.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-23 20:27:59 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+  Rendered home/_navbar.html.erb (0.4ms)
+Completed 200 OK in 334ms (Views: 330.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-23 20:28:05 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+  Rendered home/_navbar.html.erb (0.6ms)
+Completed 200 OK in 160ms (Views: 155.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-23 20:28:15 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+  Rendered home/_navbar.html.erb (0.7ms)
+Completed 200 OK in 154ms (Views: 150.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-23 20:29:04 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+  Rendered home/_navbar.html.erb (0.6ms)
+Completed 200 OK in 156ms (Views: 152.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-23 20:29:54 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+  Rendered home/_navbar.html.erb (0.6ms)
+Completed 200 OK in 3075ms (Views: 3071.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-23 20:31:01 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+  Rendered home/_navbar.html.erb (0.6ms)
+Completed 200 OK in 143ms (Views: 139.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-23 20:33:49 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.6ms)
+  Rendered home/_navbar.html.erb (0.5ms)
+Completed 200 OK in 3242ms (Views: 3234.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-23 20:35:24 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+  Rendered home/_navbar.html.erb (0.4ms)
+Completed 200 OK in 169ms (Views: 165.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-23 20:35:50 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+  Rendered home/_navbar.html.erb (0.6ms)
+Completed 200 OK in 2933ms (Views: 2929.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-23 20:36:49 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+  Rendered home/_navbar.html.erb (0.8ms)
+Completed 200 OK in 139ms (Views: 135.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for ::1 at 2016-09-23 20:36:51 +0300
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (2.0ms)
+  Rendered home/_navbar.html.erb (0.7ms)
+Completed 200 OK in 182ms (Views: 160.5ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/users/new" for ::1 at 2016-09-23 20:41:31 +0300
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (1.2ms)
+  Rendered home/_navbar.html.erb (0.7ms)
+Completed 200 OK in 147ms (Views: 143.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for ::1 at 2016-09-23 20:42:28 +0300
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (1.1ms)
+  Rendered home/_navbar.html.erb (0.7ms)
+Completed 200 OK in 149ms (Views: 145.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for ::1 at 2016-09-23 20:42:56 +0300
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (1.1ms)
+  Rendered home/_navbar.html.erb (0.8ms)
+Completed 200 OK in 160ms (Views: 155.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for ::1 at 2016-09-23 20:44:26 +0300
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (1.4ms)
+  Rendered home/_navbar.html.erb (0.7ms)
+Completed 200 OK in 146ms (Views: 142.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for ::1 at 2016-09-23 20:45:05 +0300
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (1.1ms)
+  Rendered home/_navbar.html.erb (0.7ms)
+Completed 200 OK in 169ms (Views: 164.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for ::1 at 2016-09-23 20:46:20 +0300
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (1.2ms)
+  Rendered home/_navbar.html.erb (0.7ms)
+Completed 200 OK in 147ms (Views: 143.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for ::1 at 2016-09-23 20:48:55 +0300
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (1.1ms)
+  Rendered home/_navbar.html.erb (0.6ms)
+Completed 200 OK in 160ms (Views: 156.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for ::1 at 2016-09-23 20:49:31 +0300
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (1.1ms)
+  Rendered home/_navbar.html.erb (0.7ms)
+Completed 200 OK in 151ms (Views: 147.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for ::1 at 2016-09-23 20:50:14 +0300
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (1.0ms)
+  Rendered home/_navbar.html.erb (1.1ms)
+Completed 200 OK in 159ms (Views: 154.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for ::1 at 2016-09-23 20:50:26 +0300
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (1.2ms)
+  Rendered home/_navbar.html.erb (0.7ms)
+Completed 200 OK in 171ms (Views: 166.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for ::1 at 2016-09-23 20:50:49 +0300
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (1.2ms)
+  Rendered home/_navbar.html.erb (1.0ms)
+Completed 200 OK in 153ms (Views: 148.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for ::1 at 2016-09-23 20:51:29 +0300
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (1.0ms)
+  Rendered home/_navbar.html.erb (0.6ms)
+Completed 200 OK in 149ms (Views: 145.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for ::1 at 2016-09-23 20:53:06 +0300
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (1.1ms)
+  Rendered home/_navbar.html.erb (0.8ms)
+Completed 200 OK in 170ms (Views: 166.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for ::1 at 2016-09-23 20:56:08 +0300
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (1.2ms)
+  Rendered home/_navbar.html.erb (0.8ms)
+Completed 200 OK in 199ms (Views: 193.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-23 20:56:08 +0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+  Rendered home/_navbar.html.erb (0.8ms)
+Completed 200 OK in 162ms (Views: 153.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for ::1 at 2016-09-23 20:56:17 +0300
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (16.7ms)
+  Rendered home/_navbar.html.erb (0.7ms)
+Completed 200 OK in 229ms (Views: 223.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for ::1 at 2016-09-23 21:01:02 +0300
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (2.2ms)
+  Rendered home/_navbar.html.erb (0.7ms)
+Completed 200 OK in 250ms (Views: 245.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for ::1 at 2016-09-23 21:02:03 +0300
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (1.1ms)
+  Rendered home/_navbar.html.erb (0.8ms)
+Completed 200 OK in 183ms (Views: 178.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for ::1 at 2016-09-23 21:02:41 +0300
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (1.2ms)
+  Rendered home/_navbar.html.erb (0.7ms)
+Completed 200 OK in 150ms (Views: 146.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for ::1 at 2016-09-23 21:03:12 +0300
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (1.2ms)
+  Rendered home/_navbar.html.erb (0.6ms)
+Completed 200 OK in 159ms (Views: 154.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for ::1 at 2016-09-23 21:03:34 +0300
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (1.2ms)
+  Rendered home/_navbar.html.erb (0.9ms)
+Completed 200 OK in 170ms (Views: 166.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for ::1 at 2016-09-23 21:03:42 +0300
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (1.1ms)
+  Rendered home/_navbar.html.erb (0.8ms)
+Completed 200 OK in 150ms (Views: 146.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for ::1 at 2016-09-23 21:03:55 +0300
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (1.3ms)
+  Rendered home/_navbar.html.erb (1.0ms)
+Completed 200 OK in 203ms (Views: 199.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for ::1 at 2016-09-23 21:04:08 +0300
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (1.7ms)
+  Rendered home/_navbar.html.erb (0.8ms)
+Completed 200 OK in 168ms (Views: 163.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for ::1 at 2016-09-23 21:05:36 +0300
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (1.3ms)
+  Rendered home/_navbar.html.erb (0.6ms)
+Completed 200 OK in 170ms (Views: 165.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for ::1 at 2016-09-23 21:05:49 +0300
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (1.1ms)
+  Rendered home/_navbar.html.erb (0.7ms)
+Completed 200 OK in 161ms (Views: 157.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for ::1 at 2016-09-23 21:06:16 +0300
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"2jlHGwaZPG+cz4O95r7PZnmQB5YVgjVlrA5n6wq8va/m7WV96f5pQAMV84lqTSBvQdUiQ/2ybXwQ8HBg2kBVHw==", "user"=>{"username"=>"Peter", "email"=>"piano@gmail.com", "password"=>"[FILTERED]"}}
+  [1m[35m (1.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (2.2ms)[0m  [1m[32mINSERT INTO "users" ("username", "email", "password", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["username", "Peter"], ["email", "piano@gmail.com"], ["password", "asjdkaldsasdjkl"], ["created_at", 2016-09-23 18:06:16 UTC], ["updated_at", 2016-09-23 18:06:16 UTC]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/users/28
+Completed 302 Found in 36ms (ActiveRecord: 4.4ms)
+
+
+Started GET "/users/28" for ::1 at 2016-09-23 21:06:16 +0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"28"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 28], ["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/_edit.html.erb (62.2ms)
+  Rendered users/show.html.erb within layouts/application (67.2ms)
+  Rendered home/_navbar.html.erb (1.2ms)
+Completed 200 OK in 466ms (Views: 316.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/users/28" for ::1 at 2016-09-23 21:07:19 +0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"28"}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 28], ["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/_edit.html.erb (1.6ms)
+  Rendered users/show.html.erb within layouts/application (7.8ms)
+  Rendered home/_navbar.html.erb (0.7ms)
+Completed 200 OK in 182ms (Views: 177.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/users/28" for ::1 at 2016-09-23 21:07:40 +0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"28"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 28], ["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/_edit.html.erb (1.5ms)
+  Rendered users/show.html.erb within layouts/application (5.3ms)
+  Rendered home/_navbar.html.erb (0.7ms)
+Completed 200 OK in 154ms (Views: 150.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users/28" for ::1 at 2016-09-23 21:09:41 +0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"28"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 28], ["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/_edit.html.erb (1.4ms)
+  Rendered users/show.html.erb within layouts/application (5.3ms)
+  Rendered home/_navbar.html.erb (0.6ms)
+Completed 200 OK in 171ms (Views: 166.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users/new" for ::1 at 2016-09-23 21:09:44 +0300
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (1.6ms)
+  Rendered home/_navbar.html.erb (0.6ms)
+Completed 200 OK in 200ms (Views: 196.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for ::1 at 2016-09-23 21:09:50 +0300
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (1.1ms)
+  Rendered home/_navbar.html.erb (0.7ms)
+Completed 200 OK in 159ms (Views: 155.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for ::1 at 2016-09-23 21:10:25 +0300
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (1.6ms)
+  Rendered home/_navbar.html.erb (0.7ms)
+Completed 200 OK in 219ms (Views: 212.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for ::1 at 2016-09-23 21:10:27 +0300
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (1.4ms)
+  Rendered home/_navbar.html.erb (0.7ms)
+Completed 200 OK in 227ms (Views: 217.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for ::1 at 2016-09-23 21:10:29 +0300
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (1.2ms)
+  Rendered home/_navbar.html.erb (1.2ms)
+Completed 200 OK in 217ms (Views: 212.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/28" for ::1 at 2016-09-23 21:11:58 +0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"28"}
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 28], ["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/_edit.html.erb (9.0ms)
+  Rendered users/show.html.erb within layouts/application (16.3ms)
+  Rendered home/_navbar.html.erb (1.0ms)
+Completed 200 OK in 331ms (Views: 299.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/users/28" for ::1 at 2016-09-23 21:12:28 +0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"28"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 28], ["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (0.8ms)
+  Rendered home/_navbar.html.erb (1.0ms)
+Completed 200 OK in 179ms (Views: 174.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/users/28" for ::1 at 2016-09-23 21:12:37 +0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"28"}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 28], ["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (1.6ms)
+  Rendered home/_navbar.html.erb (1.0ms)
+Completed 200 OK in 257ms (Views: 251.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/users/28" for ::1 at 2016-09-23 21:12:49 +0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"28"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 28], ["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (0.6ms)
+  Rendered home/_navbar.html.erb (0.8ms)
+Completed 200 OK in 187ms (Views: 182.1ms | ActiveRecord: 0.2ms)
+
+

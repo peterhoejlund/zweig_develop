@@ -15,3 +15,13 @@
  *= require foundation
 
  */
+
+/* for at navbaren lå lidt lavere og kunne være tynd */
+.min-navbar-gul .row {
+    position: relative;
+    top: 4px;
+}
+
+.user-new-site {
+	padding-top: 5%;
+}
