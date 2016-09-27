@@ -1,0 +1,113 @@
+  [1m[35m (5.6ms)[0m  [1m[35mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "username" varchar, "email" varchar, "password" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35m (1.1ms)[0m  [1m[35mCREATE TABLE "works" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "user_id" integer, "headline" text, "workbody" text, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35m (1.0ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (1.0ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES ('20160923183526')[0m
+  [1m[35m (0.6ms)[0m  [1m[34mselect sqlite_version(*)[0m
+  [1m[35m (1.5ms)[0m  [1m[32mINSERT INTO schema_migrations (version) VALUES ('20160922163603');
+
+[0m
+  [1m[35m (1.1ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", :environment], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "test"], ["created_at", 2016-09-26 11:52:31 UTC], ["updated_at", 2016-09-26 11:52:31 UTC]]
+  [1m[35m (1.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", :environment], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixture Delete (0.9ms)[0m  [1m[31mDELETE FROM "users"[0m
+  [1m[36mFixture Insert (0.2ms)[0m  [1m[32mINSERT INTO "users" ("username", "email", "password", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 'MyString', '2016-09-26 11:52:31.244998', '2016-09-26 11:52:31.244998', 980190962)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "users" ("username", "email", "password", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 'MyString', '2016-09-26 11:52:31.244998', '2016-09-26 11:52:31.244998', 298486374)[0m
+  [1m[36mFixture Delete (0.1ms)[0m  [1m[31mDELETE FROM "works"[0m
+  [1m[36mFixture Insert (0.2ms)[0m  [1m[32mINSERT INTO "works" ("user_id", "headline", "workbody", "created_at", "updated_at", "id") VALUES (1, 'MyText', 'MyText', '2016-09-26 11:52:31.254544', '2016-09-26 11:52:31.254544', 980190962)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "works" ("user_id", "headline", "workbody", "created_at", "updated_at", "id") VALUES (1, 'MyText', 'MyText', '2016-09-26 11:52:31.254544', '2016-09-26 11:52:31.254544', 298486374)[0m
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+---------------------------------
+MainMailerTest: test_welcome_mail
+---------------------------------
+  Rendering main_mailer/welcome_mail.html.erb within layouts/mailer
+  Rendered main_mailer/welcome_mail.html.erb within layouts/mailer (6.5ms)
+  Rendering main_mailer/welcome_mail.text.erb within layouts/mailer
+  Rendered main_mailer/welcome_mail.text.erb within layouts/mailer (0.4ms)
+MainMailer#welcome_mail: processed outbound mail in 65.2ms
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------
+HomeControllerTest: test_should_get_index
+-----------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.5ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixture Delete (0.6ms)[0m  [1m[31mDELETE FROM "users"[0m
+  [1m[36mFixture Insert (0.5ms)[0m  [1m[32mINSERT INTO "users" ("username", "email", "password", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 'MyString', '2016-09-26 11:52:56.560922', '2016-09-26 11:52:56.560922', 980190962)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "users" ("username", "email", "password", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 'MyString', '2016-09-26 11:52:56.560922', '2016-09-26 11:52:56.560922', 298486374)[0m
+  [1m[36mFixture Delete (0.2ms)[0m  [1m[31mDELETE FROM "works"[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "works" ("user_id", "headline", "workbody", "created_at", "updated_at", "id") VALUES (1, 'MyText', 'MyText', '2016-09-26 11:52:56.571251', '2016-09-26 11:52:56.571251', 980190962)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "works" ("user_id", "headline", "workbody", "created_at", "updated_at", "id") VALUES (1, 'MyText', 'MyText', '2016-09-26 11:52:56.571251', '2016-09-26 11:52:56.571251', 298486374)[0m
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+---------------------------------
+MainMailerTest: test_welcome_mail
+---------------------------------
+  Rendering main_mailer/welcome_mail.html.erb within layouts/mailer
+  Rendered main_mailer/welcome_mail.html.erb within layouts/mailer (2.3ms)
+  Rendering main_mailer/welcome_mail.text.erb within layouts/mailer
+  Rendered main_mailer/welcome_mail.text.erb within layouts/mailer (0.4ms)
+MainMailer#welcome_mail: processed outbound mail in 58.5ms
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------
+HomeControllerTest: test_should_get_index
+-----------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (7.6ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixture Delete (0.7ms)[0m  [1m[31mDELETE FROM "users"[0m
+  [1m[36mFixture Insert (0.6ms)[0m  [1m[32mINSERT INTO "users" ("username", "email", "password", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 'MyString', '2016-09-26 12:20:52.299456', '2016-09-26 12:20:52.299456', 980190962)[0m
+  [1m[36mFixture Insert (0.2ms)[0m  [1m[32mINSERT INTO "users" ("username", "email", "password", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 'MyString', '2016-09-26 12:20:52.299456', '2016-09-26 12:20:52.299456', 298486374)[0m
+  [1m[36mFixture Delete (0.1ms)[0m  [1m[31mDELETE FROM "works"[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "works" ("user_id", "headline", "workbody", "created_at", "updated_at", "id") VALUES (1, 'MyText', 'MyText', '2016-09-26 12:20:52.321420', '2016-09-26 12:20:52.321420', 980190962)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "works" ("user_id", "headline", "workbody", "created_at", "updated_at", "id") VALUES (1, 'MyText', 'MyText', '2016-09-26 12:20:52.321420', '2016-09-26 12:20:52.321420', 298486374)[0m
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------
+HomeControllerTest: test_should_get_index
+-----------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+---------------------------------
+MainMailerTest: test_welcome_mail
+---------------------------------
+  Rendering main_mailer/welcome_mail.html.erb within layouts/mailer
+  Rendered main_mailer/welcome_mail.html.erb within layouts/mailer (2.4ms)
+  Rendering main_mailer/welcome_mail.text.erb within layouts/mailer
+  Rendered main_mailer/welcome_mail.text.erb within layouts/mailer (0.5ms)
+MainMailer#welcome_mail: processed outbound mail in 61.5ms
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mFixture Delete (0.4ms)[0m  [1m[31mDELETE FROM "users"[0m
+  [1m[36mFixture Insert (0.2ms)[0m  [1m[32mINSERT INTO "users" ("username", "email", "password", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 'MyString', '2016-09-26 12:22:45.595738', '2016-09-26 12:22:45.595738', 980190962)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "users" ("username", "email", "password", "created_at", "updated_at", "id") VALUES ('MyString', 'MyString', 'MyString', '2016-09-26 12:22:45.595738', '2016-09-26 12:22:45.595738', 298486374)[0m
+  [1m[36mFixture Delete (0.1ms)[0m  [1m[31mDELETE FROM "works"[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "works" ("user_id", "headline", "workbody", "created_at", "updated_at", "id") VALUES (1, 'MyText', 'MyText', '2016-09-26 12:22:45.603509', '2016-09-26 12:22:45.603509', 980190962)[0m
+  [1m[36mFixture Insert (0.1ms)[0m  [1m[32mINSERT INTO "works" ("user_id", "headline", "workbody", "created_at", "updated_at", "id") VALUES (1, 'MyText', 'MyText', '2016-09-26 12:22:45.603509', '2016-09-26 12:22:45.603509', 298486374)[0m
+  [1m[35m (3.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+---------------------------------
+MainMailerTest: test_welcome_mail
+---------------------------------
+  Rendering main_mailer/welcome_mail.html.erb within layouts/mailer
+  Rendered main_mailer/welcome_mail.html.erb within layouts/mailer (2.2ms)
+  Rendering main_mailer/welcome_mail.text.erb within layouts/mailer
+  Rendered main_mailer/welcome_mail.text.erb within layouts/mailer (0.4ms)
+MainMailer#welcome_mail: processed outbound mail in 44.8ms
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------
+HomeControllerTest: test_should_get_index
+-----------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m

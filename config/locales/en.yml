@@ -21,3 +21,7 @@
 
 en:
   hello: "Hello world"
+
+  main_mailer:
+    welcome_mail: 
+      subject: "Velkommen til Zweig"

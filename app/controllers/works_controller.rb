@@ -5,6 +5,10 @@ class WorksController < ApplicationController
 	@works = @user.works.all
 	end
 
+	def new 
+	@work = Work.new
+	end
+	
 	def create
 	user = User.find(params[:work][:user_id])
     user.answers.create(answer_params)
